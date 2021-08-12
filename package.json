@@ -1,0 +1,15 @@
+{
+  "name": "bullshitquote2image",
+  "version": "0.1.0",
+  "description": "A simple website for a simple man.",
+  "main": "main.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Aterfax",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "text-to-image": "^4.0.0"
+  }
+}

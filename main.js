@@ -109,14 +109,14 @@ const server = app.listen(7000, () => {
   console.log(`Express running → PORT ${server.address().port}`);
   });
 
-  app.get('/', (req, res) => {
+  app.get('/bbqsg.png', (req, res) => {
 
   const dataUri = textToImage.generateSync("Thought of the day: " + buzzword(), {
-    maxWidth: 720,
-    fontSize: 18,
+    maxWidth: 640,
+    fontSize: 14,
     fontFamily: 'Arial',
-    lineHeight: 26,
-    margin: 10,
+    lineHeight: 20,
+    margin: 5,
     bgColor: "white",
     textColor: "black"
     });

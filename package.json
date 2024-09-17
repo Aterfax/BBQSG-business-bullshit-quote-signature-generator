@@ -9,7 +9,7 @@
   "author": "Aterfax",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "text-to-image": "^5.2.0"
   }
 }
